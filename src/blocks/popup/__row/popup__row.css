@@ -1,0 +1,25 @@
+.popup__row {
+    /* min-height: 27px;
+    box-sizing: border-box;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    font-size: 14px;
+    font-weight: 400;
+     line-height: 17px; */
+    margin-top: 13px;
+    padding: 0 0 13px 0;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    width: 358px;   
+}
+
+@media screen and (max-width: 920px) {
+    .popup__row {
+        width: 238px;
+    }
+}
